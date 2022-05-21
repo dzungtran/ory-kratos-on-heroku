@@ -1,5 +1,5 @@
-# Deploy Ory/Kratos on Heroku
-A template for deployment Ory/Kratos to Heroku.
+# Deploy Ory/Kratos to Heroku
+A template for deployment Ory/Kratos on Heroku.
 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
