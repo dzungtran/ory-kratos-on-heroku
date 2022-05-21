@@ -5,6 +5,7 @@ A template for deployment Ory/Kratos to Heroku.
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 Kratos version: `v0.9.0-alpha.3`
+
 To verify: open this URL to your browser `https://[your_app_name].herokuapp.com/health/alive`
 
 ## Environmental Variables
