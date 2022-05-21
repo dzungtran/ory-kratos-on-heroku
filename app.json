@@ -22,7 +22,7 @@
       {
         "plan": "heroku-postgresql",
         "options": {
-          "version": "13.7"
+          "version": "14"
         }
       }
     ]
