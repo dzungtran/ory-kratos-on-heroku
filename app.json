@@ -1,0 +1,29 @@
+{
+    "name": "Ory/Krato Heroku deployment",
+    "description": "AS simple template to deploy Ory/Krato on Heroku",
+    "logo": "https://i.imgur.com/ATSG4w3.png",
+    "keywords": [
+      "ory/kratos",
+      "auth",
+      "identities management",
+      "productivity"
+    ],
+    "repository": "https://github.com/dzungtran/ory-kratos-on-heroku",
+    "website": "https://github.com/dzungtran/ory-kratos-on-heroku",
+    "success_url": "https://github.com/dzungtran/ory-kratos-on-heroku",
+    "stack": "container",
+    "env": {
+      "BASE64_ENCODED_KRATOS_CONFIG": {
+        "description": "To overwrite current kratos.yaml. Please encode base64 file content before paste to this config as a value",
+        "required": false
+      }
+    },
+    "addons": [
+      {
+        "plan": "heroku-postgresql",
+        "options": {
+          "version": "13.7"
+        }
+      }
+    ]
+  }
