@@ -7,4 +7,4 @@ bash <(curl https://raw.githubusercontent.com/ory/meta/master/install.sh) -d -b 
 ./kratos migrate sql $DATABASE_URL -y
 
 ## Run Kratos
-DSN=$DATABASE_URL SERVE_PUBLIC_PORT=$PORT ./kratos serve -c ./kratos.yaml --watch-courier --sqa-opt-out
+DSN=$DATABASE_URL SERVE_PUBLIC_PORT=$PORT ./kratos serve -c ./kratos.yml --watch-courier --sqa-opt-out
