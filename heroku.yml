@@ -1,5 +1,2 @@
-build:
-  languages:
-    - node
 run:
   web: kratos-public-api

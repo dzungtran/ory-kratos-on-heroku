@@ -1,6 +1,8 @@
 {
     "name": "@ory-kratos/heroku",
     "version": "0.0.1",
-    "node": "latest",
-    "dependencies": {}
+    "dependencies": {},
+    "engines": {
+        "node": "16.x"
+    }
 }
