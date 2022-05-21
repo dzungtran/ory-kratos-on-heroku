@@ -16,6 +16,6 @@ To verify: open this URL to your browser `https://[your_app_name].herokuapp.com/
 
 ## Kratos Environmental Variables
 
-Environmental variables take precedence over config file values. Nested paths get mapped to config values by putting an underscore _ between every level, so selfservice.flows.settings.ui_url becomes `SELFSERVICE_FLOWS_SETTINGS_UI_URL=<value>`.
+Environmental variables take precedence over config file values. Nested paths get mapped to config values by putting an underscore _ between every level, so `selfservice.flows.settings.ui_url` becomes `SELFSERVICE_FLOWS_SETTINGS_UI_URL=<value>`.
 
 Document: https://www.ory.sh/docs/kratos/reference/configuration
