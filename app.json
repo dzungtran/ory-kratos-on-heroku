@@ -1,6 +1,6 @@
 {
     "name": "Ory/Krato Heroku deployment",
-    "description": "AS simple template to deploy Ory/Krato on Heroku",
+    "description": "A simple template to deploy Ory/Krato on Heroku",
     "logo": "https://i.imgur.com/ATSG4w3.png",
     "keywords": [
       "ory/kratos",
