@@ -2,7 +2,6 @@
     "name": "Ory/Krato Heroku deployment",
     "description": "A simple template to deploy Ory/Krato on Heroku",
     "logo": "https://i.imgur.com/ATSG4w3.png",
-    "stack": "heroku-20",
     "keywords": [
       "ory/kratos",
       "auth",
